@@ -316,8 +316,6 @@ body.dark .content .projects .container h2{
     color: var(--light-color);
 }
 
-
-
 .row{
     position: relative;
 }
@@ -557,6 +555,7 @@ body.dark .content .projects .container h2{
 
     .main .container .write-up .border{
         width: 200px;
+        margin-left: -90px;
     }
 
     .main .container .write-up p{

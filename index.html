@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title> Chimezie Michael | Software Engineer </title>
 </head>
 <body>
@@ -81,14 +82,14 @@
 
          <div class="container">
             <div class="write-up">
-                 <h2>
+                 <h2 data-aos="fade-up" data-aos-delay="300">
                      Chimezie Michael <br/>
                      Creative <br/> Front-end developer
                  </h2>
 
-                 <div class="border"></div>
+                 <div class="border" data-aos="fade-in" data-aos-delay="100"></div>
 
-                 <div class="btn"> <a href="#"> Hire Me </a></div>
+                 <div class="btn" data-aos="fade-down" data-aos-delay="300"> <a href="#"> Hire Me </a></div>
 
                  <p> 
                      At the crossroads between UX/UI design and front-end development,
@@ -175,7 +176,10 @@
 
         <div class="cursor"></div>
     </div>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
